@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://synapsee.com.br/sitemap.xml
