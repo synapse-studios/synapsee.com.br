@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Synapse — Consultoria em Software</title>
+  <meta name="description"
+    content="Synapse é uma consultoria em software que acelera times e entrega produtos digitais modernos e escaláveis." />
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="bingbot" content="index, follow" />
+  <meta name="yandexbot" content="index, follow" />
+  <meta name="duckduckbot" content="index, follow" />
+  <meta name="baidu" content="index, follow" />
+  <meta name="sogou" content="index, follow" />
+  <meta name="360" content="index, follow" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header" id="topo">
+    <div class="container nav">
+      <a href="#topo" class="brand" aria-label="Synapse - ir para o topo">
+        <img src="assets/logo.svg" alt="Logo da Synapse" class="brand-logo" width="120" height="28"
+          style="margin-top: 5px;" />
+      </a>
+      <button id="menuButton" class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <nav id="siteNav" class="nav-links" aria-label="Navegação principal">
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" id="inicio">
+      <div class="hero-content">
+        <h1>Consultoria para criar ou escalar seu produto</h1>
+        <p>
+          A Synapse acelera sua entrega com arquitetura moderna, engenharia de
+          qualidade e foco no resultado.
+        </p>
+        <div class="hero-ctas">
+          <a href="#contato" class="btn btn-ok">Fale com a gente</a>
+          <a href="#servicos" class="btn btn-ghost">Nossos serviços</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true"></div>
+    </section>
+
+    <section class="section container" id="servicos">
+      <header class="section-header">
+        <h2>Serviços</h2>
+        <p>Do discovery à produção, cobrimos o ciclo completo do software.</p>
+      </header>
+      <div class="grid cards">
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">⚙️</div>
+          <h3>Arquitetura & Escalabilidade</h3>
+          <p>Desenho de arquitetura, cloud, observabilidade e performance.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">🚀</div>
+          <h3>Alta Performance e Qualidade</h3>
+          <p>Boas práticas de código, CI/CD, testes, aceleração das entregas.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">🔒</div>
+          <h3>Zero setup necessário</h3>
+          <p>Deploy da aplicação completa, gerenciado por nós.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">🧭</div>
+          <h3>Discovery & Produto</h3>
+          <p>Alinhamento de objetivos, roadmap e métricas orientadas a valor.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="sobre">
+      <div class="container">
+        <header class="section-header">
+          <h2>Sobre a Synapse</h2>
+          <p>Parceira técnica para transformar estratégia em software.</p>
+        </header>
+        <div class="about">
+          <p>
+            Unimos boas práticas de engenharia com visão de produto para
+            construir soluções sustentáveis. Trabalhamos junto ao seu time,
+            entregando um código altamente manutenível, de qualidade.
+          </p>
+          <ul class="checks">
+            <li>Arquiteturas evolutivas</li>
+            <li>Entrega contínua com qualidade</li>
+            <li>Observabilidade e dados para decisões</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contato">
+      <div class="container">
+        <div class="cta-card">
+          <div class="cta-text">
+            <h2>Vamos conversar?</h2>
+            <p>
+              Conte seus objetivos e desafios. Construímos juntos o próximo passo.
+            </p>
+          </div>
+          <div class="cta-actions">
+            <a href="https://wa.me/5548998621436?text=Ol%C3%A1!%20Vim%20do%20site%20da%20Synapse!"
+              class="btn btn-ok btn-lg" target="_blank" rel="noopener">
+              Converse no WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer">
+      <a href="#topo" class="brand small" aria-label="Synapse - ir para o topo">
+        <img src="assets/logo.svg" alt="Synapse" class="brand-logo" width="100" height="24" style="margin-top: 5px;" />
+      </a>
+      <p>© <span id="year"></span> Synapse. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
